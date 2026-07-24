@@ -1,8 +1,28 @@
 aid: brightfunnel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightfunnel.png
 name: BrightFunnel
-description: BrightFunnel is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  BrightFunnel was a San Francisco-based B2B marketing analytics company founded in 2012 that
+  built a revenue attribution and forecasting platform. Its Revenue Intelligence Suite gave B2B
+  marketers multi-touch attribution, revenue-funnel analysis, account-based measurement, web
+  analytics, and predictive forecasting so they could quantify marketing's impact on pipeline and
+  revenue and align plans with business priorities. BrightFunnel was acquired by account-based
+  marketing vendor Terminus in January 2018, and its multi-channel analytics were folded into the
+  Terminus platform. It no longer operates as a standalone product: the brightfunnel.com domain now
+  serves only a redirect, and there is no live developer portal, public API, documentation, SDK, or
+  discovery surface (.well-known, llms.txt) to enrich. This profile remains a historical company
+  stub, originally surfaced as a portfolio company of bloomberg-beta.
 url: https://raw.githubusercontent.com/api-evangelist/brightfunnel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: terminus
+x-acquired-date: '2018-01'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketing
+- Analytics
+- Attribution
+- Revenue Intelligence
+- Account Based Marketing
+- Forecasting
+- B2B
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
